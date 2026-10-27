@@ -1,0 +1,6 @@
+{
+  "name": "FormatoFácil - Reportes Técnicos Aragua",
+  "description": "Generador y gestor ágil de reportes técnicos de soporte e informática para la Dirección Regional de Aragua",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
