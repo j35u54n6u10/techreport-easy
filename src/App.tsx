@@ -34,7 +34,8 @@ import {
   Check, 
   Zap, 
   Download,
-  RotateCcw
+  RotateCcw,
+  Heart
 } from 'lucide-react';
 
 const STORAGE_KEYS = {
@@ -411,6 +412,14 @@ export default function App() {
         </div>
 
       </main>
+
+      {/* Footer */}
+      <footer className="mt-8 pb-24 md:pb-8 text-center text-xs text-slate-500 font-medium">
+        <p className="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full bg-white/70 backdrop-blur-xs border border-slate-200/60 shadow-xs">
+          <span>Elaborado con amor para Julio</span>
+          <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 animate-pulse" />
+        </p>
+      </footer>
 
       {/* Floating Save Toast */}
       {saveToast && (
